@@ -9,4 +9,3 @@ print(string.digits)  # десятеричная
 print(string.octdigits)  # восьмеричная
 print(string.hexdigits)  # hex
 
-
