@@ -46,8 +46,6 @@ while not finished:
                 if event.key == pg.K_c:
                     pause = False
 
-
-
     screen.fill((255, 255, 255))
     rect(screen, MINT, player)
     rect(screen, RED, enemy)
