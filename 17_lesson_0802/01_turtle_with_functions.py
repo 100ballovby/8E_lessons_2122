@@ -22,5 +22,4 @@ for i in range(15):
     col = choice(colors)
     draw_square(t, col, x, y, 50)
 
-
 done()  # чтобы окно не закрывалось
