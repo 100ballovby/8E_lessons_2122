@@ -9,7 +9,7 @@ with open('series_NG.json') as jf:
     gas = data['data']['rates']
     with open(table_file, 'w', newline='') as table:  # открыть таблицу и не добавлять пустые строки между строк
         writer = csv.writer(table)  # записывает данные в таблицу
-        headers = ['Date', 'Price', 'Unit']  # заголовки таблицы
+        headers = ['Date', 'Price', 'Unit', '$50', '$100', '$150']  # заголовки таблицы
         writer.writerow(headers)  # записываю заголовки таблицы в таблицу
         for unit in gas:
             row = []  # пустая строка таблицы
